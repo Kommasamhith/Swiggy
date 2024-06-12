@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+.Logo-Container{
+  width:30px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo{
+  width:80px;
+  height: 80px;
+  margin:10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header{
+  display:flex;
+  justify-content:space-between;
+  margin:40px;
+  box-shadow: 0 4px 0px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  height: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.List{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 50px;
+  margin-right:50px;
+  list-style-type: none;
+  padding:  40px 20px;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: -20px;
+}
+.Resto-container{
+  display: flex;
+  height: 300px;
+margin: 0px 100px;
+overflow-x: auto;
+  overflow-y: hidden;
+
 }
 
-.App-link {
-  color: #61dafb;
+/* .Resto-container :hover {
+  border:1px solid black;
+  cursor: pointer;
+} */
+
+.heading{
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Search{
+  padding: 5px;
+  margin: 5px 75px;
+
+}
+
+
+.res-cards{
+  width: 250px;
+  height:180px;
+  margin: 5px;
+  padding: 5px;
+   
+}
+
+
+
+
+.res-cards > h3 {
+  font-size: medium;
+}
+  
+.res-cards > h4 {
+  font-size: small;
+
+}
+
+.btn{
+  margin: 3px;
+}
+.btn :hover {
+ background-color: gray;
+ border-radius: 50%;
+
+}
+
+.Res-logo{
+width:100%;
+height: 80%;
+border-radius: 15px;
+
+
+}
+
+.home{
+  width:50px;
+}
+
+
+/* .card-list > Ul > Li{
+
+  list-style: None;
+
+  font-size: small;
+  text-align-last: left;
+
+} */
+
+.items{
+  width: 150px;
+  margin: 30px;
+  margin-left: 70px;
+}
+
+.cards-cointainer{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 0px 0px rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.cards-cointainer :hover{
+  cursor: pointer;
+}
+
+.restaurantNames{
+  font-style: italic;
+  margin: 20px;
+  margin-left: 70px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(225, 241, 241);
+}
+
+.play{
+  width: 200px;
+  height:80px;
+  margin-right:40px;
+}
+.apple{
+  width: 200px;
+  height:80px;
+  margin-right:60px;
+}
+.fLogo{
+  margin: 10px;
+  margin-right: 40px;
+  margin-top: 40px
+
+}
+
+.fText{
+  margin: 30px;
+  margin-left: 80px;
+}
+
+
+.name{
+  margin-top: -10px;
+  margin-left: 7px;
+  font-size: large;
+
+}
+.time{
+  margin-top: -18px;
+  margin-left: 7px;
+}
+.locality{
+  margin-top: -15px;
+  margin-left: 7px;
+}
+
+.Online-img{
+  width:250px;
+height: 150px;
+border-radius: 15px;
+margin: 7px;
+}
+
+.online-cardContainer{
+  width:270px;
+  height:250px;
+ 
+  margin-left: 5px;
+  
+}
+
+.online-container{
+  display:flex;
+  margin-left: 70px;
+  margin-right: 70px;
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.oText{
+  margin-left: 70px;
+}
+
+.oText > h1{
+  font-style: italic;
+}
+
+.btn{
+  margin-left: 70px;
+}
+
+.btn > button {
+  border: 1px solid black;
+  padding-right: 20px;
+ font-style: italic;
+ font-size:larger;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 40px;
+}
+
+.error{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Assuming full viewport height */
 }
